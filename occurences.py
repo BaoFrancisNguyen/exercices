@@ -1,7 +1,7 @@
 # LES COLLECTIONS : LISTES / TUPLES
 # index, find et count
 
-#          0        1        2           3           4      5
+# index   0        1        2           3           4      5
 noms = ["Jean", "Sophie", "Martin", "Christophe", "Zoe", "Martin"]
 
 
@@ -13,7 +13,7 @@ if nb_occurences > 0:
     for i in range(nb_occurences):
         index_occurence = noms.index(element_cherche, index_occurence)
         print(element_cherche, "trouvé à", index_occurence)
-        index_occurence += 1
+        index_occurence += 1 #si occurence, la fonctionne va boucler et va chercher la suivante dans l'ordre de l'index
 else:
     print("L'élément n'est pas dans la collection")
 
